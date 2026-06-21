@@ -1,0 +1,17 @@
+{
+    "typestring": "normal",
+    "use_ddp": false,
+    "scale_standard": false,
+    "scale_minmax": true,
+    "feature_wise": false,
+    "cantransform": true,
+    "means": [],
+    "stds": [],
+    "maxs": [],
+    "mins": [],
+    "total_mean": 0.0,
+    "total_std": 0.0,
+    "total_max": 0.015883056446909904,
+    "total_min": -7.295843040822092e-09,
+    "total_data_count": 0
+}

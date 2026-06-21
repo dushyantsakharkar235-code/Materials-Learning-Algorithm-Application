@@ -1,0 +1,359 @@
+{
+    "comment": "",
+    "manual_seed": null,
+    "openpmd_configuration": {},
+    "openpmd_granularity": 1,
+    "use_atomic_density_formula": true,
+    "use_ddp": false,
+    "use_gpu": true,
+    "use_lammps": true,
+    "use_mpi": false,
+    "verbosity": 1,
+    "data": {
+        "data_splitting_type": "by_snapshot",
+        "input_rescaling_type": "feature-wise-standard",
+        "output_rescaling_type": "normal",
+        "shuffling_seed": null,
+        "snapshot_directories_list": [
+            {
+                "object": "Snapshot",
+                "data": {
+                    "calculation_output": "",
+                    "grid_dimension": [
+                        144,
+                        72,
+                        120
+                    ],
+                    "grid_dimensions": null,
+                    "grid_size": 1244160,
+                    "input_dimension": null,
+                    "input_npy_directory": "N256\\ldos_convergence\\fingerprints/",
+                    "input_npy_file": "Be256_298K_snapshot0.in.npy",
+                    "input_units": "None",
+                    "output_dimension": null,
+                    "output_npy_directory": "N256\\ldos_convergence\\ldos/",
+                    "output_npy_file": "Be256_298K_snapshot0.out.npy",
+                    "output_units": "1/(eV*A^3)",
+                    "snapshot_function": "tr",
+                    "snapshot_type": "numpy",
+                    "temporary_input_file": null
+                }
+            },
+            {
+                "object": "Snapshot",
+                "data": {
+                    "calculation_output": "",
+                    "grid_dimension": [
+                        144,
+                        72,
+                        120
+                    ],
+                    "grid_dimensions": null,
+                    "grid_size": 1244160,
+                    "input_dimension": null,
+                    "input_npy_directory": "N256\\ldos_convergence\\fingerprints/",
+                    "input_npy_file": "Be256_298K_snapshot1.in.npy",
+                    "input_units": "None",
+                    "output_dimension": null,
+                    "output_npy_directory": "N256\\ldos_convergence\\ldos/",
+                    "output_npy_file": "Be256_298K_snapshot1.out.npy",
+                    "output_units": "1/(eV*A^3)",
+                    "snapshot_function": "tr",
+                    "snapshot_type": "numpy",
+                    "temporary_input_file": null
+                }
+            },
+            {
+                "object": "Snapshot",
+                "data": {
+                    "calculation_output": "",
+                    "grid_dimension": [
+                        144,
+                        72,
+                        120
+                    ],
+                    "grid_dimensions": null,
+                    "grid_size": 1244160,
+                    "input_dimension": null,
+                    "input_npy_directory": "N256\\ldos_convergence\\fingerprints/",
+                    "input_npy_file": "Be256_298K_snapshot3.in.npy",
+                    "input_units": "None",
+                    "output_dimension": null,
+                    "output_npy_directory": "N256\\ldos_convergence\\ldos/",
+                    "output_npy_file": "Be256_298K_snapshot3.out.npy",
+                    "output_units": "1/(eV*A^3)",
+                    "snapshot_function": "tr",
+                    "snapshot_type": "numpy",
+                    "temporary_input_file": null
+                }
+            },
+            {
+                "object": "Snapshot",
+                "data": {
+                    "calculation_output": "",
+                    "grid_dimension": [
+                        144,
+                        72,
+                        120
+                    ],
+                    "grid_dimensions": null,
+                    "grid_size": 1244160,
+                    "input_dimension": null,
+                    "input_npy_directory": "N256\\ldos_convergence\\fingerprints/",
+                    "input_npy_file": "Be256_298K_snapshot4.in.npy",
+                    "input_units": "None",
+                    "output_dimension": null,
+                    "output_npy_directory": "N256\\ldos_convergence\\ldos/",
+                    "output_npy_file": "Be256_298K_snapshot4.out.npy",
+                    "output_units": "1/(eV*A^3)",
+                    "snapshot_function": "tr",
+                    "snapshot_type": "numpy",
+                    "temporary_input_file": null
+                }
+            },
+            {
+                "object": "Snapshot",
+                "data": {
+                    "calculation_output": "",
+                    "grid_dimension": [
+                        144,
+                        72,
+                        120
+                    ],
+                    "grid_dimensions": null,
+                    "grid_size": 1244160,
+                    "input_dimension": null,
+                    "input_npy_directory": "N256\\ldos_convergence\\fingerprints/",
+                    "input_npy_file": "Be256_298K_snapshot5.in.npy",
+                    "input_units": "None",
+                    "output_dimension": null,
+                    "output_npy_directory": "N256\\ldos_convergence\\ldos/",
+                    "output_npy_file": "Be256_298K_snapshot5.out.npy",
+                    "output_units": "1/(eV*A^3)",
+                    "snapshot_function": "tr",
+                    "snapshot_type": "numpy",
+                    "temporary_input_file": null
+                }
+            },
+            {
+                "object": "Snapshot",
+                "data": {
+                    "calculation_output": "N256\\ldos_convergence\\dft_outputs/Be256_298K_snapshot2.out",
+                    "grid_dimension": [
+                        144,
+                        72,
+                        120
+                    ],
+                    "grid_dimensions": null,
+                    "grid_size": 1244160,
+                    "input_dimension": null,
+                    "input_npy_directory": "N256\\ldos_convergence\\fingerprints/",
+                    "input_npy_file": "Be256_298K_snapshot2.in.npy",
+                    "input_units": "None",
+                    "output_dimension": null,
+                    "output_npy_directory": "N256\\ldos_convergence\\ldos/",
+                    "output_npy_file": "Be256_298K_snapshot2.out.npy",
+                    "output_units": "1/(eV*A^3)",
+                    "snapshot_function": "va",
+                    "snapshot_type": "numpy",
+                    "temporary_input_file": null
+                }
+            },
+            {
+                "object": "Snapshot",
+                "data": {
+                    "calculation_output": "N256\\ldos_convergence\\dft_outputs/Be256_298K_snapshot20.out",
+                    "grid_dimension": [
+                        144,
+                        72,
+                        120
+                    ],
+                    "grid_dimensions": null,
+                    "grid_size": 1244160,
+                    "input_dimension": null,
+                    "input_npy_directory": "N256\\ldos_convergence\\fingerprints/",
+                    "input_npy_file": "Be256_298K_snapshot20.in.npy",
+                    "input_units": "None",
+                    "output_dimension": null,
+                    "output_npy_directory": "N256\\ldos_convergence\\ldos/",
+                    "output_npy_file": "Be256_298K_snapshot20.out.npy",
+                    "output_units": "1/(eV*A^3)",
+                    "snapshot_function": "va",
+                    "snapshot_type": "numpy",
+                    "temporary_input_file": null
+                }
+            }
+        ],
+        "use_fast_tensor_data_set": false,
+        "use_lazy_loading": false,
+        "use_lazy_loading_prefetch": false,
+        "_parameters_type": "ParametersData"
+    },
+    "datageneration": {
+        "local_psp_name": null,
+        "local_psp_path": null,
+        "ofdft_friction": 0.1,
+        "ofdft_kedf": "WT",
+        "ofdft_number_of_timesteps": 0,
+        "ofdft_temperature": 0,
+        "ofdft_timestep": 0,
+        "trajectory_analysis_below_average_counter": 50,
+        "trajectory_analysis_correlation_metric_cutoff": -0.1,
+        "trajectory_analysis_denoising_width": 100,
+        "trajectory_analysis_estimated_equilibrium": 0.1,
+        "trajectory_analysis_temperature_tolerance_percent": 1,
+        "_parameters_type": "ParametersDataGeneration"
+    },
+    "descriptors": {
+        "ace_balance_cutoff_radii_for_elements": false,
+        "ace_coupling_coefficients_maximum_l": 12,
+        "ace_coupling_coefficients_type": "clebsch_gordan",
+        "ace_cutoff_factor": 2.0,
+        "ace_included_expansion_ranks": [
+            1,
+            2,
+            3
+        ],
+        "ace_larger_cutoff_for_metals": true,
+        "ace_maximum_l_per_rank": [
+            0,
+            2,
+            2
+        ],
+        "ace_maximum_n_per_rank": [
+            6,
+            2,
+            2
+        ],
+        "ace_minimum_l_per_rank": [
+            0,
+            0,
+            0
+        ],
+        "ace_use_maximum_cutoff_per_element": false,
+        "atomic_density_cutoff": null,
+        "atomic_density_sigma": null,
+        "bispectrum_cutoff": 4.67637,
+        "bispectrum_element_weights": null,
+        "bispectrum_switchflag": 1,
+        "bispectrum_twojmax": 10,
+        "custom_lammps_compute_file": "",
+        "descriptor_type": "Bispectrum",
+        "descriptors_contain_xyz": true,
+        "minterpy_cutoff_cube_size": 0.0,
+        "minterpy_lp_norm": 2,
+        "minterpy_point_list": [],
+        "minterpy_polynomial_degree": 4,
+        "use_y_splitting": 0,
+        "use_z_splitting": true,
+        "_parameters_type": "ParametersDescriptors"
+    },
+    "hyperparameters": {
+        "acsd_points": 100,
+        "checkpoint_name": "checkpoint_mala_ho",
+        "checkpoints_each_trial": 0,
+        "direction": "minimize",
+        "hlist": [],
+        "hyper_opt_method": "optuna",
+        "mutual_information_points": 20000,
+        "n_trials": 100,
+        "naswot_pruner_batch_size": 0,
+        "naswot_pruner_cutoff": 0,
+        "number_bad_trials_before_stopping": null,
+        "number_training_per_trial": 1,
+        "pruner": null,
+        "rdb_storage": null,
+        "rdb_storage_heartbeat": null,
+        "sqlite_timeout": 600,
+        "study_name": null,
+        "trial_ensemble_evaluation": "mean",
+        "use_multivariate": true,
+        "_parameters_type": "ParametersHyperparameterOptimization"
+    },
+    "network": {
+        "bidirection": false,
+        "dropout": 0.1,
+        "layer_activations": [
+            "LeakyReLU"
+        ],
+        "layer_activations_include_output_layer": true,
+        "layer_sizes": [
+            91,
+            400,
+            400,
+            250
+        ],
+        "loss_function_type": "mse",
+        "nn_type": "feed-forward",
+        "no_hidden_state": false,
+        "num_heads": 10,
+        "num_hidden_layers": 1,
+        "_parameters_type": "ParametersNetwork"
+    },
+    "running": {
+        "checkpoint_name": "checkpoint_mala",
+        "checkpoint_path": "./",
+        "checkpoints_each_epoch": 5,
+        "dropout": 0.0,
+        "early_stopping_epochs": 20,
+        "early_stopping_threshold": 0,
+        "final_validation_metric": "ldos",
+        "inference_data_grid": [
+            0,
+            0,
+            0
+        ],
+        "l2_regularization": 0.0,
+        "learning_rate": 0.001,
+        "learning_rate_decay": 0.1,
+        "learning_rate_patience": 6,
+        "learning_rate_scheduler": null,
+        "log_metrics_on_train_set": false,
+        "logger": null,
+        "logging_dir": "./mala_logging",
+        "logging_dir_append_date": true,
+        "logging_metrics": [
+            "ldos"
+        ],
+        "logging_metrics_interval": 1,
+        "max_number_epochs": 10000,
+        "mini_batch_size": 64,
+        "num_workers": 0,
+        "optimizer": "Adam",
+        "profiler_range": [
+            1000,
+            2000
+        ],
+        "run_name": "",
+        "training_log_interval": 1000,
+        "trainingtype": "Adam",
+        "use_graphs": false,
+        "use_mixed_precision": false,
+        "use_shuffling_for_samplers": true,
+        "validation_metric": "ldos",
+        "verbosity": true,
+        "_parameters_type": "ParametersRunning"
+    },
+    "targets": {
+        "assume_two_dimensional": false,
+        "ldos_gridoffset_ev": -5,
+        "ldos_gridsize": 250,
+        "ldos_gridspacing_ev": 0.1,
+        "pseudopotential_path": null,
+        "rdf_parameters": {
+            "number_of_bins": 500,
+            "rMax": "mic"
+        },
+        "restrict_targets": "zero_out_negative",
+        "ssf_parameters": {
+            "number_of_bins": 100,
+            "kMax": 12.0
+        },
+        "target_type": "LDOS",
+        "tpcf_parameters": {
+            "number_of_bins": 20,
+            "rMax": "mic"
+        },
+        "_parameters_type": "ParametersTargets"
+    }
+}
